@@ -1,4 +1,13 @@
 {
+  "name": "ebashirohi",
+  "version": "0.0.1",
+  "description": "Ebashirohi.",
+  "main": "gulpfile.js",
+  "keywords": [
+    "html5"
+  ],
+  "author": "IWABUCHI Yu(u)ki",
+  "license": "MIT",
   "devDependencies": {
     "gulp-pug": "^3.3.0",
     "gulp-sass": "^3.1.0"

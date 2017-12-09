@@ -6,6 +6,12 @@
   "engines": {
     "node" : ">=8.9.3"
   },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "build-css": "gulp css",
+    "build-html": "gulp html"
+  },
   "keywords": [
     "html5"
   ],

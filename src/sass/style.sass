@@ -1,6 +1,19 @@
 html
-  font-size: 10px;
+  font-size: 16px
 
 body
-  background: white;
-  color: black;
+  background: white
+  color: black
+
+nav
+  float: left
+  width: 25%
+
+  li
+    list-style: none;
+    ::before
+      // FIXME: <li>ではなく<a>にかかってしまう
+      content: "● "
+
+main
+  float: left

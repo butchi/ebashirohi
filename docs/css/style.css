@@ -1,6 +1,18 @@
+@charset "UTF-8";
 html {
-  font-size: 10px; }
+  font-size: 16px; }
 
 body {
   background: white;
   color: black; }
+
+nav {
+  float: left;
+  width: 25%; }
+  nav li {
+    list-style: none; }
+    nav li ::before {
+      content: "● "; }
+
+main {
+  float: left; }
